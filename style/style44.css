@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+.main {
+    display: grid;
+    width: 100%;
+    height: 500px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-areas: "c1 c2 c3" " c4 c5 c6 " "c7 c8 . ";
+    row-gap: 10px;
+    column-gap: 10px;
+ }
+    
+.main img {
+    width : 100% ;
+    height: 100% ;
+}
+    
+
+
+
+
+.c1 {
+    grid-area: c1;
+    
+}
+.c2 {
+   
+    grid-area: c2;
+}
+.c3 {
+    
+    grid-area: c3;
+}
+.c4 {
+    
+    grid-area: c4;
+}
+
+.c5 {
+    
+    grid-area: c5;
+}
+.c6 {
+    
+    grid-area: c6;
+}
+.c7 {
+    
+    grid-area: c7;
+}
+.c8 {
+    
+    grid-area: c8;
+}

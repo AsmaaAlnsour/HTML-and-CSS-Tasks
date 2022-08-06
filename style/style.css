@@ -1,0 +1,18 @@
+body{
+background-color: white;
+/* text-align:right ; 
+ direction: rtl; >>>>> the diriction is right to left */
+}
+.contener{
+background-color: blue;
+width: 500px;
+height: 500px;
+margin: auto; 
+padding: 20px 10px;
+}
+.contener .first-div  {
+    background-color: aqua;
+    width: 250px;
+    height: 400px;
+    margin: auto; 
+}

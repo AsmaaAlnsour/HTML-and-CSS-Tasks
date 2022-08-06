@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+.main {
+    display: grid;
+    width: 100%;
+    height: 300px;
+    grid-template-columns: 25% 25% 25% 25%;
+    /* grid-template-rows: 25px 25px ; */
+    grid-template-areas: "c3 c2 c4 c6" " c7 c8 c5 c1";
+    row-gap: 10px;
+    column-gap: 10px;
+ }
+    
+
+
+
+.main div { 
+    
+    text-align: center;
+    background-color: yellow;
+    padding-top: 50px;
+    
+    font-size: x-large;
+
+
+}
+.c1 {
+    grid-area: c1;
+    
+}
+.c2 {
+   
+    grid-area: c2;
+}
+.c3 {
+    
+    grid-area: c3;
+}
+.c4 {
+    
+    grid-area: c4;
+}
+
+.c5 {
+    
+    grid-area: c5;
+}
+.c6 {
+    
+    grid-area: c6;
+}
+.c7 {
+    
+    grid-area: c7;
+}
+.c8 {
+    
+    grid-area: c8;
+}

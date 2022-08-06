@@ -1,0 +1,78 @@
+.main {
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    grid-template-rows: 1fr 1fr ;
+    width: 100%;
+    margin: auto;
+    height: 400px;
+   
+    /* row-gap: 2px;
+    column-gap: 10px; */
+
+}
+
+.c1 {
+   
+    grid-column-end: 3;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: auto;
+    
+    background-image: url(https://new.orange.jo/sites/default/files/styles/m992x733/public/2021-09/292308-P6RFAZ-384_0.webp?h=c92f1253&itok=9HdPQBBc);
+}
+
+.c2 {
+    
+    grid-column:4/4 ; 
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.t1 {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5e3b135bb6a7a018afa17fe1/1586283824243-NLL2ANPS8Q6VZ36PKCHA/blue-bg.jpg?format=500w);
+    grid-column:3/4 ;
+    grid-row-start: 1;
+    grid-row-end: 2;
+   
+}
+.c3 {
+    grid-column:3/4 ;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.t2 {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5e3b135bb6a7a018afa17fe1/1586283824243-NLL2ANPS8Q6VZ36PKCHA/blue-bg.jpg?format=500w);
+    grid-column:4/4 ;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}
+
+/* 
+
+.c3 {
+    grid-column-end: 1;
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+.c4 {
+    grid-column-end: 2;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+.c5 {
+    grid-column-end: 5;
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+.c6 {
+    grid-column-end: 5;
+    grid-column-start: 5;
+    grid-row-start: 2;
+}
+.c7 {
+    grid-column-end: 6;
+    grid-column-start: 6;
+    grid-row-start: 2;
+} */

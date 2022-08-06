@@ -1,0 +1,212 @@
+.First{
+    display: flex;
+margin-left: 30%;
+width: 40%;
+justify-content: space-around;
+
+}
+
+.Textgreen {
+    color: rgb(127, 173, 57);
+}
+.Main{
+    display: grid;
+    grid-template-columns: 30% 60%;
+    grid-template-rows: 300px 200px; 
+    column-gap: 20px;
+
+}
+.dep{
+    justify-self: right;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+    
+}
+.sec {
+    display: flex;
+    border: 1px solid gray;
+    height: 35px;
+    width: 58.7%;
+    
+}
+p{
+    color: grey;
+}
+.Botton{
+    background-color: rgb(127, 173, 57);
+    color: white;
+    /* border: solid 1px grey;  */
+padding: 4px;
+ width: 90px;
+ height: 25px;
+ text-align: center;
+ font-size: x-small;
+ padding-top: 7px;
+ 
+ 
+}
+.Third{
+    padding: 90px;
+    background-image: url(https://www.arguss.lv/customers/img/hero/banner.jpg);
+    width: 700px;
+}
+.Third h1{
+    font-size: xx-large;
+}
+input{
+    border:none;
+    width: 300px;
+    height: 30px;
+}
+h4{display: inline;
+    width: 100px;
+    height: 40px;
+    
+}
+/* 
+ .Sec_search { 
+  
+    display: inline;
+} */
+/* .inline{
+
+    display: inline;
+} */
+.ss {
+    display: flex;
+    justify-content: space-around;
+}
+.green{
+    background-color: rgb(127, 173, 57);
+    width: 170px;
+    text-align: center;
+    display: flex;
+    height: 35px;
+    padding-bottom: 5px;
+    color: white;
+}
+.green img{
+    height: 30px;
+    width: 30px;
+}
+.First img{
+    height: 30px;
+    width: 80px;
+  
+
+}
+.footer{
+    display: flex;
+  
+    width: 100%;
+    justify-content: space-around;
+    /* border: 1px solid gray; */
+
+}
+.f1 { background-image: url(https://www.arguss.lv/customers/img/categories/cat-3.jpg);
+width: 250px; height: 280px;
+
+text-align: center;
+
+}
+.f2 { background-image: url(https://www.arguss.lv/customers/img/categories/cat-4.jpg);
+    width: 250px; height: 280px;
+    text-align: center;
+}
+.f3 { background-image: url(https://www.arguss.lv/customers/img/categories/cat-5.jpg);
+    width: 250px; height: 280px;
+    text-align: center;
+}
+.f4 { background-image: url(https://www.arguss.lv/customers/img/categories/cat-1.jpg);
+    width: 250px; height: 280px;
+    text-align: center;
+}
+.all{
+    display: grid;
+    grid-template-columns: 30% 60%;
+    grid-template-rows: 700px 200px; 
+}
+@media  (max-width: 1220px) {
+    .footer{
+        row-gap: 5px;
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        grid-template-rows: 280px 280px;
+        width: 100%;
+        justify-content: space-around;}
+
+        .f1 { grid-row: 1/2;
+            grid-column: 1/2;
+            }
+            .f2 {grid-row: 1/2; 
+            grid-column: 2/2;}
+            .sec {
+                display: flex;
+                fl
+                
+
+}
+@media  (max-width: 1080px) {
+    .footer{
+      row-gap: 5px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 280px 280px;
+        width: 100%;
+        justify-content: space-around;}
+
+        .f1 { grid-row: 1/2;
+            grid-column: 1/2;
+            }
+            .f2 {grid-row: 1/2; 
+            grid-column: 2/2;}
+
+
+}
+@media  (max-width: 913px) {
+
+            .sec {
+                display: flex;
+                flex-direction: column;
+                border: 1px solid gray;
+                height: 35px;
+                width: 58.7%;
+                
+            }
+
+}
+@media  (max-width: 600px) {
+    .First{
+        display: flex;
+        flex-direction: column;
+    margin-left: 30%;
+    width: 100%;
+    justify-content: space-around;
+    
+    }
+    
+    .Main{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 500px 500px; 
+        column-gap: 20px;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .footer{
+        row-gap: 5px;
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+
+          justify-content: space-around;}
+          .dep{
+            margin: auto;
+          }
+            
+          
+}
+
